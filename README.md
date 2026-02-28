@@ -1,5 +1,6 @@
 🚀 AI-Chip-Power-Predictor
 AI-Based Chip Power Consumption Predictor
+
 📌 Overview
 
 This project presents an AI-driven framework for predicting semiconductor chip power consumption using a hybrid modeling approach that combines Machine Learning with physics-based electrical equations.
