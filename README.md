@@ -1,8 +1,10 @@
 🚀 **AI-Chip-Power-Predictor**
 **AI-Based Chip Power Consumption Predictor**
 
+
 📌** Overview**
 
+ 
 This project presents an AI-driven framework for predicting semiconductor chip power consumption using a hybrid modeling approach that combines Machine Learning with physics-based electrical equations.
 
 Modern processors exhibit nonlinear power behavior influenced by voltage, current, workload intensity, and frequency scaling. Traditional static estimation techniques are insufficient for real-time adaptive systems.
@@ -11,6 +13,7 @@ This solution enables dynamic power prediction, visualization, and intelligent o
 
 
 🔍** Problem Statement**
+
 
 Semiconductor systems operate under varying workloads and voltage conditions, leading to fluctuating power consumption. Accurate real-time power estimation is essential for:
 
@@ -25,7 +28,9 @@ Sustainable computing
 Conventional analytical methods lack adaptability and runtime intelligence.
 
 
+
 💡 **Proposed Solution**
+
 
 The system uses:
 
@@ -40,7 +45,9 @@ Real-time interactive dashboard for monitoring
 This hybrid approach improves realism and robustness of predictions.
 
 
+
 ✨**Key Features **
+
 
 🔹 Multi-channel chip power prediction
 
@@ -56,6 +63,7 @@ This hybrid approach improves realism and robustness of predictions.
 
 
 🏗** System Architecture**
+
 
 User Inputs (Voltage, Current, Workload, Frequency)
 ↓
@@ -74,6 +82,7 @@ Real-Time Dashboard Output
 
 🛠** Technologies Used**
 
+
 Python – Core development language
 
 Pandas – Data preprocessing and feature handling
@@ -89,6 +98,7 @@ Joblib – Model serialization and loading
 
 📊** How It Works** 
 
+
 User enters runtime electrical parameters.
 
 The trained model predicts total chip power.
@@ -101,6 +111,7 @@ Optimization recommendations are generated dynamically.
 
 
 ⚡** Semiconductor Relevance**
+
 
 The framework aligns with:
 
@@ -116,11 +127,16 @@ This makes it applicable to modern CPU/SoC power management systems.
 
 
 ▶️** How to Run the Project**
+
 pip install -r requirements.txt
+
 python train_model.py
+
 streamlit run app.py
 
+
 🌍 **Future Scope**
+
 
 Integration with real processor telemetry data
 
